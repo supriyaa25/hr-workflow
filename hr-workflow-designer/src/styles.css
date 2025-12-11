@@ -1,0 +1,19 @@
+html, body, #root { height: 100%; margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji; }
+.layout{display:grid;grid-template-columns:260px 1fr 380px;height:100vh}
+aside,section{border-left:1px solid #e5e7eb;padding:12px;overflow:auto;background:#fafafa}
+main{background:#f8fafc}
+.node{border:1px solid #d1d5db;border-radius:8px;padding:8px;background:#fff;min-width:180px;box-shadow:0 1px 1px rgba(0,0,0,.03)}
+.node-title{font-weight:600}
+.node-sub{opacity:.7;font-size:.85rem}
+.panel{display:block;padding:8px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;margin-bottom:12px}
+.panel h3{margin:0 0 8px 0;font-size:1rem}
+button{padding:6px 10px;border:1px solid #d1d5db;border-radius:6px;background:#fff;cursor:pointer}
+.button-row{display:flex;gap:8px;flex-wrap:wrap}
+label{display:block;margin:8px 0 4px}
+input, select {width:100%;padding:6px 8px;border:1px solid #d1d5db;border-radius:6px;background:#fff}
+pre{white-space:pre-wrap;background:#0b1021;color:#e7e9ff;padding:10px;border-radius:8px;max-height:240px;overflow:auto}
+.badge{display:inline-block;padding:2px 8px;border:1px solid #d1d5db;border-radius:999px;background:#fff;font-size:.75rem}
+.sidebar-group{margin-bottom:12px}
+.sidebar-group h4{margin:0 0 6px;font-size:.9rem;color:#111827}
+.delete-btn{color:#ef4444;border-color:#fecaca}
+hr{border:none;border-top:1px solid #eee;margin:12px 0}
